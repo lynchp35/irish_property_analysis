@@ -41,7 +41,17 @@ class Daft_web_scraper:
         The soup is then passed the extract_data function.
         """
         
+        print("Scarping of Daft.ie starting")
+        
+        counter = self.end_page // 10
+        
         for i in range(self.start_page, self.end_page):
+            
+            self.i = i
+            if self.i % counter == 0:
+                progress = (self.i/self.end_page)*100
+                print(f"Process is {progress:.2f}% of the way done")
+            
             current_url = f"{self.url}?from={i*self.page_size}&pageSize={self.page_size}"
             response = requests.get(current_url)
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -232,7 +242,7 @@ class Daft_web_scraper:
             self.imput_null_values()
 
 if __name__ == "__main__":
-    path = "data/"
+    path = "../data/"
     url = "https://www.daft.ie/property-for-sale/ireland"
     
     start_page = 0
