@@ -142,6 +142,9 @@ if __name__ == "__main__":
         ).rename(columns={"Address":"County"})
         ).drop_duplicates(subset="Address")
     
+    sold_df.dropna(subset="County", inplace=True)
+    sold_df["County"]= sold_df["County"].replace({"Mayor":"Dublin 1"})
+    sold_df["Province"] = sold_df["County"].apply(lambda x: find_province(x, county_dict))
     
     price_change_df = pd.read_csv("data/myHome_price_change_from_page_1_till_page_349.csv", index_col=["Unnamed: 0"])
 
@@ -154,6 +157,11 @@ if __name__ == "__main__":
         price_change_df_counties_2).sort_index(
         ).rename(columns={"Address":"County"})
         ).drop_duplicates(subset="Address")
+    
+    price_change_df.dropna(subset="County", inplace=True)
+    price_change_df["County"] = price_change_df["County"].apply(lambda x: fix_counties(x))
+    price_change_df["County"]= price_change_df["County"].replace({"Downs":"Wicklow"})
+    price_change_df["Province"] = price_change_df["County"].apply(lambda x: find_province(x, county_dict))
     
     sold_df.to_csv("data/clean_myhome_sold.csv")
     price_change_df.to_csv("data/clean_myhome_price_change.csv")
