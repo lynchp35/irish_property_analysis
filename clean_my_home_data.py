@@ -30,7 +30,7 @@ def fix_floor_area(area):
     except AttributeError:
         pass
     
-def find_county(address: str, counties: np.ndarray) -> str:
+def find_county(address: str, counties: np.ndarray, county_position=-1) -> str:
 
     """
     The address is comma seperated with the county at the end. (Some adresses are missing the county).
@@ -39,7 +39,10 @@ def find_county(address: str, counties: np.ndarray) -> str:
     We also need to check for counties such as Dublin 1, Dublin 2 etc.
 
     """
-    countyName = address.split(",")[-1].split()
+    try:
+        countyName = address.split(",")[county_position].split()
+    except IndexError:
+        return np.nan
     if len(countyName) == 1:
         if countyName[0].strip().capitalize() in counties or countyName[0].strip().capitalize()[:-1] in counties:
             return countyName[0].capitalize()
@@ -124,10 +127,36 @@ if __name__ == "__main__":
     myhome_listings.dropna(subset=["County"], inplace=True) # Haven't tested this so it maybe wrong.
     myhome_listings["Province"] = myhome_listings["County"].apply(lambda x: find_province(x, county_dict))
 
-    # If the listing is a site there won't be any beds or baths, current value = Null
     
     myhome_listings.to_csv("data/clean_myhome_listing.csv")
+    
+    
+    sold_df = pd.read_csv("data/myHome_sold_property_from_page_1_till_page_1000.csv", index_col=["Unnamed: 0"])
 
+    sold_df_counties_1 = pd.DataFrame(sold_df["Address"].apply(lambda x : find_county(x, county_dict,county_position=-1)).dropna())
+    sold_df_counties_2 = pd.DataFrame(sold_df["Address"].apply(lambda x : find_county(x, county_dict,county_position=-2)).dropna())
+
+    sold_df = sold_df.join(
+        sold_df_counties_1.append(
+        sold_df_counties_2).sort_index(
+        ).rename(columns={"Address":"County"})
+        ).drop_duplicates(subset="Address")
+    
+    
+    price_change_df = pd.read_csv("data/myHome_price_change_from_page_1_till_page_349.csv", index_col=["Unnamed: 0"])
+
+    price_change_df_counties_1 = pd.DataFrame(price_change_df["Address"].apply(lambda x : find_county(x, county_dict,county_position=-1)).dropna())
+    price_change_df_counties_2 = pd.DataFrame(price_change_df["Address"].apply(lambda x : find_county(x, county_dict,county_position=-2)).dropna())
+
+
+    price_change_df = price_change_df.join(
+        price_change_df_counties_1.append(
+        price_change_df_counties_2).sort_index(
+        ).rename(columns={"Address":"County"})
+        ).drop_duplicates(subset="Address")
+    
+    sold_df.to_csv("data/clean_myhome_sold.csv")
+    price_change_df.to_csv("data/clean_myhome_price_change.csv")
     # I am not sure if there is anything else that we would need to clean.
     # In the next section we could look into imputing some null values and maybe include a hierarchical structure for  Property_type.
     # Currently 11 Property_types but users may want to look at a higher level view.
