@@ -127,7 +127,7 @@ if __name__ == "__main__":
     daft_listings["Bed"][daft_listings["Property_type"] == "Site"] = 0
     daft_listings["Bath"][daft_listings["Property_type"] == "Site"] = 0
     
-    daft_listings.to_csv("data/clean_daft_listing.csv")
+    daft_listings.to_csv("data/cleaned/daft_listing.csv")
 
     myhome_listings = pd.read_csv("data/myHome_from_page_1_till_page_790_by_20.csv", index_col=["Unnamed: 0"])
     myhome_listings = myhome_listings.replace({"nan":np.nan}).dropna(subset="Address").reset_index(drop=True)
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     myhome_listings["Province"] = myhome_listings["County"].apply(lambda x: find_province(x, county_dict))
 
     
-    myhome_listings.to_csv("data/clean_myhome_listing.csv")
+    myhome_listings.to_csv("data/cleaned/myhome_listing.csv")
     
     
     sold_df = pd.read_csv("data/myHome_sold_property_from_page_1_till_page_1000.csv", index_col=["Unnamed: 0"])
@@ -177,8 +177,8 @@ if __name__ == "__main__":
     price_change_df["County"]= price_change_df["County"].replace({"Downs":"Wicklow"})
     price_change_df["Province"] = price_change_df["County"].apply(lambda x: find_province(x, county_dict))
     
-    sold_df.to_csv("data/clean_myhome_sold.csv")
-    price_change_df.to_csv("data/clean_myhome_price_change.csv")
+    sold_df.to_csv("data/cleaned/myhome_sold.csv")
+    price_change_df.to_csv("data/cleaned/myhome_price_change.csv")
     # I am not sure if there is anything else that we would need to clean.
     # In the next section we could look into imputing some null values and maybe include a hierarchical structure for  Property_type.
     # Currently 11 Property_types but users may want to look at a higher level view.
