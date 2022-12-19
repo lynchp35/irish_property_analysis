@@ -1,0 +1,140 @@
+,Date,Address,New_price,Old_price,Change(€),Change(%),Page
+0,2022-12-16," 10 The Telford Building, Heuston South Quarter, Kilmainham, Dublin 8 ",465000,425000,40000,9.41,1
+1,2022-12-16," Ballydoole, Pallaskenry, Limerick ",560000,500000,60000,12.0,1
+2,2022-12-16," 19 Buttery Court, Market Square, Mallow, Cork ",135000,140000,-5000,-3.57,1
+3,2022-12-15," 69 Dominick Place, Airmount, Co. Waterford ",159000,170000,-11000,-6.47,1
+4,2022-12-15," 40 Pairc Na Fana, Union Hall, West Cork. P81P732 ",375000,350000,25000,7.14,1
+5,2022-12-15," 46 Healy Terrace, Ballina, Mayo ",84000,92000,-8000,-8.7,1
+6,2022-12-15," Ballinatray , Courtown, Wexford ",100000,90000,10000,11.11,1
+7,2022-12-15," 62 Castleheath, Swords Road, Malahide, Swords, County Dublin ",495000,515000,-20000,-3.88,1
+8,2022-12-15," 13 Foxborough Court, Lucan, Lucan, Dublin ",420000,350000,70000,20.0,1
+9,2022-12-15," Cloonshanbally, Culfadda, Co. Sligo ",199500,219000,-19500,-8.9,1
+10,2022-12-15, Portnashangan ,285000,275000,10000,3.64,1
+11,2022-12-14," Residence On C.1.85 Acres at Ballyglass, Knockcroghery, Co. Roscommon ",175000,125000,50000,40.0,1
+12,2022-12-14," Blue Gates, Hilly Road, Drumshanbo, Leitrim ",150000,135000,15000,11.11,1
+13,2022-12-14," 61 The Boulevard Bealing Village , Tyrrelstown, Dublin 15 ",320000,330000,-10000,-3.03,1
+14,2022-12-14," 11 The Green, Meadowvale, Arklow, Wicklow, Y14H683 ",299000,315000,-16000,-5.08,2
+15,2022-12-13," 69 Embassy Manor, Kill, Kildare ",335000,349000,-14000,-4.01,2
+16,2022-12-13," 19 Connaught Street Parade Phibsboro Dublin 7, Phibsboro, Dublin 7 ",315000,325000,-10000,-3.08,2
+17,2022-12-13," 46 Knightswood, Drogheda, Louth ",330000,299950,30050,10.02,2
+18,2022-12-13," 46 Knightswood, Drogheda, Louth ",299950,299000,950,0.32,2
+19,2022-12-13," 8 Monkstown Avenue, Monkstown, Co. Dublin ",940000,925000,15000,1.62,2
+20,2022-12-13," 51 Pinebrook Vale, Clonsilla, Dublin 15 ",280000,275000,5000,1.82,2
+21,2022-12-13," 99 Latchford Square, Clonee, Dublin 15 ",270000,279950,-9950,-3.55,2
+22,2022-12-13," 10 Fortlawn Park, Blanchardstown, Dublin 15 ",335000,360000,-25000,-6.94,2
+23,2022-12-13," 21 Cherryfield Park, Hartstown, Dublin 15 ",290000,297000,-7000,-2.36,2
+24,2022-12-13," Type E5 Ferns Wood, Ballykelly Road, Monasterevin, Kildare ",384950,379950,5000,1.32,2
+25,2022-12-13," No. 5 Riverchapel Parade, Riverchapel, Gorey, Wexford ",235000,225000,10000,4.44,2
+26,2022-12-13," 2 Lower View Ville, Strawberry Hill, Sundays Well, Cork ",325000,295000,30000,10.17,2
+27,2022-12-13," 5 Chamber Street, South City Centre - D8, Dublin 8 ",215000,290000,-75000,-25.86,2
+28,2022-12-13," Ardue, Ballyconnell, Cavan ",125000,119000,6000,5.04,2
+29,2022-12-12," 18 Tobair Ban, Kells, Meath ",280000,270000,10000,3.7,3
+30,2022-12-12," Clegna, Cootehall, Boyle, Co. Roscommon ",99000,125000,-26000,-20.8,3
+31,2022-12-12," 17 Sandymount Green, Sandymount, Dublin 4 ",1595000,1750000,-155000,-8.86,3
+32,2022-12-12," 41 St. Fintan's Villas, Deansgrange, County Dublin ",695000,724950,-29950,-4.13,3
+33,2022-12-12," Unit 2, Castle Park Apartments, Leighlin Road, Graiguecullen, Co. Carlow ",147500,135000,12500,9.26,3
+34,2022-12-12," 65 The Glen, Portarlington, Co. Laois ",195000,199000,-4000,-2.01,3
+35,2022-12-12," 41 Ath Lethan, Racecourse Road, Dundalk, Co. Louth ",155000,150000,5000,3.33,3
+36,2022-12-12," 12 Kearns Court, Kilmainham, Dublin 8 ",265000,225000,40000,17.78,3
+37,2022-12-12," 9 Corn Lodge, Castlebridge, Wexford ",150000,159500,-9500,-5.96,3
+38,2022-12-12," 'Percivals', Daybreak, Ballycanew, Gorey, Co Wexford ",575000,550000,25000,4.55,3
+39,2022-12-12," Clos Emer, Saltown, Dundalk, Louth ",225000,265000,-40000,-15.09,3
+40,2022-12-10," Dun Iad, Park Road, Camolin, Gorey, Wexford ",395000,435000,-40000,-9.2,3
+41,2022-12-09," 36 Cuirt Na hAbhainn, Claregalway, Galway ",345000,335000,10000,2.99,3
+42,2022-12-09," New Road, Allenwood, Kildare ",480000,485000,-5000,-1.03,3
+43,2022-12-09," 28 Rath Gael, Clondalkin, Dublin 22 ",179000,189000,-10000,-5.29,3
+44,2022-12-09," 24 Heatherfield, Bailieborough, Cavan ",190000,199000,-9000,-4.52,3
+45,2022-12-09," 5 Castlefield Grove, Killala Rd, Ballina, Mayo ",150000,135000,15000,11.11,3
+46,2022-12-09," Bellagh Place, McGee's Cross, Kells, Meath ",160000,170000,-10000,-5.88,3
+47,2022-12-09," 41 Ath Lethan, Racecourse Road, Dundalk, Co. Louth ",150000,155000,-5000,-3.23,4
+48,2022-12-09," The Mall, Dingle, Kerry ",260000,300000,-40000,-13.33,4
+49,2022-12-09," 10 Appollonian Suites, Church Road, Tramore, Waterford ",215000,225000,-10000,-4.44,4
+50,2022-12-09," Pinegrove, Carhoo, Rathpeacon, Cork ",280000,335000,-55000,-16.42,4
+51,2022-12-09," 16 Parklyn , Brockelsby Street, Blackpool, Cork ",210000,225000,-15000,-6.67,4
+52,2022-12-09," 14 St. Lawrence Terrace, Howth, Howth, Dublin ",495000,475000,20000,4.21,4
+53,2022-12-09," Apt 34 Blacklion Manor, Greystones, Wicklow ",270000,280000,-10000,-3.57,4
+54,2022-12-09," 2 Woodbine Avenue , Booterstown, County Dublin ",625000,645000,-20000,-3.1,4
+55,2022-12-09," 29 Berkley Lawn, Thomastown, Kilkenny ",335000,350000,-15000,-4.29,4
+56,2022-12-09," No.20 Cluain An Fhiaidh, Lispole, Kerry ",370000,375000,-5000,-1.33,4
+57,2022-12-09," 18 Avenue Grove, The Avenue, Gorey, Wexford ",250000,230000,20000,8.7,4
+58,2022-12-08," the moorings, whitepoint, cobh, co cork , Cobh, East Cork ",695000,750000,-55000,-7.33,4
+59,2022-12-08, 19 Deravarra House ,115000,119950,-4950,-4.13,4
+60,2022-12-08," 53 Smithfield Market , Block A, Smithfield, Dublin 7 ",495000,515000,-20000,-3.88,4
+61,2022-12-08," Apartment 196, Bracken Hill, Sandyford, Dublin 18 ",380000,360000,20000,5.56,4
+62,2022-12-08," Naas Road, Kilcullen, Kildare ",335000,329000,6000,1.82,4
+63,2022-12-08," 55 Longstone Park, Portrane, Dublin ",295000,340000,-45000,-13.24,4
+64,2022-12-08," Naas Road, Kilcullen, Kildare ",329000,334950,-5950,-1.78,5
+65,2022-12-07," Gates, Old Parish, Dungarvan, Waterford ",370000,410000,-40000,-9.76,5
+66,2022-12-07," 15 Brooke Avenue, Rocklands, Cavan Town, Co. Cavan ",225000,210000,15000,7.14,5
+67,2022-12-07," Naas Road, Kilcullen, Kildare ",334950,339950,-5000,-1.47,5
+68,2022-12-07," Naas Road, Kilcullen, Kildare ",339950,349000,-9050,-2.59,5
+69,2022-12-07," Naas Road, Kilcullen, Kildare ",349000,385000,-36000,-9.35,5
+70,2022-12-07," 3 Norwood, Ballybrack, Glenageary, Co Dublin ",420000,450000,-30000,-6.67,5
+71,2022-12-07," Apartment 11 Marlfield Mall, Kiltipper Way, Tallaght, Dublin ",275000,240000,35000,14.58,5
+72,2022-12-07," 21 Oriel Cove, Clogherhead, Louth ",245000,269000,-24000,-8.92,5
+73,2022-12-07," 93 Longmeadows, Islandbridge, Dublin 8 ",275000,250000,25000,10.0,5
+74,2022-12-07," Attirowerty, Letterfrack, Galway ",50000,70000,-20000,-28.57,5
+75,2022-12-07," Turner's Hill, Kingscourt, Cavan ",125000,150000,-25000,-16.67,5
+76,2022-12-07," Aughamore, Rooskey, Leitrim ",315000,305000,10000,3.28,5
+77,2022-12-07," “Loth Lorien” Ballinclamper, Ballinacourty, , Dungarvan, Waterford ",680000,750000,-70000,-9.33,5
+78,2022-12-07," Fairfield Lower, Crossmolina, Mayo ",50000,53000,-3000,-5.66,5
+79,2022-12-07," Residence 9, InterContinental Hotel, Ballsbridge, Dublin 4 ",975000,1100000,-125000,-11.36,5
+80,2022-12-07," Bracklone Street, Portarlington, Laois ",109000,130000,-21000,-16.15,6
+81,2022-12-06," 16 Willow Close, Primrose Gate, Celbridge, Kildare ",220000,178000,42000,23.6,6
+82,2022-12-06," 15A Strand Road, Sandymount, Dublin 4 ",850000,845000,5000,0.59,6
+83,2022-12-06," 12 Oranhill Road, Oranhill, Oranmore, Galway ",460000,495000,-35000,-7.07,6
+84,2022-12-06," 7 Friary Court, Friary Road , Naas, Kildare ",15000,10000,5000,50.0,6
+85,2022-12-06," Dunphys Bar, Kilbarrymeaden, Kill, Waterford ",300000,350000,-50000,-14.29,6
+86,2022-12-06," Dunphy's, Kilbarrymeaden, Kill, Waterford ",300000,350000,-50000,-14.29,6
+87,2022-12-06," 2A Lake Edge, Kilminchy, Portlaoise, Laois ",220000,230000,-10000,-4.35,6
+88,2022-12-06," Knockauncarragh, Woodford, Galway ",249000,275000,-26000,-9.45,6
+89,2022-12-06," Ringaphuca, Abbeyside, Dungarvan, , Dungarvan, Waterford ",355000,365000,-10000,-2.74,6
+90,2022-12-06," Cadamstown, Kinnitty, Offaly ",55000,65000,-10000,-15.38,6
+91,2022-12-06," No.2 The Birches, Clonbalt Woods., Longford, Longford ",195000,249000,-54000,-21.69,6
+92,2022-12-05," Attymass, Ballina, Mayo ",22000,50000,-28000,-56.0,6
+93,2022-12-05," Garryhesta, Ovens, Cork ",310000,400000,-90000,-22.5,6
+94,2022-12-05," 11 Cardy Rock Road, Balbriggan, Dublin ",270000,235000,35000,14.89,7
+95,2022-12-05," 12 Templeroan Green, Scholarstown Road, Rathfarnham, Dublin 16 ",430000,450000,-20000,-4.44,7
+96,2022-12-05," 1 South Quay, Arklow, Wicklow ",250000,295000,-45000,-15.25,7
+97,2022-12-05," 'Old Forge' Laught Street, Kilfinane, Limerick ",195000,199000,-4000,-2.01,7
+98,2022-12-05," Mountrivers, Rylane, Cork ",395000,430000,-35000,-8.14,7
+99,2022-12-02," 17 Tir Connell Grove, Inchicore, Dublin 8 ",290000,250000,40000,16.0,7
+100,2022-12-02," Raheenduff, Oulart, Gorey, Wexford ",240000,235000,5000,2.13,7
+101,2022-12-02," Apt 2 Bradogue Court, Annamoe Road, Cabra, Dublin 7 ",320000,340000,-20000,-5.88,7
+102,2022-12-02," 19 Beverton Meadows, Donabate, County Dublin ",395000,415000,-20000,-4.82,7
+103,2022-12-02," 2 Applewood Place, Applewood, Swords,   County Dublin ",215000,220000,-5000,-2.27,7
+104,2022-12-02," Errill, Rathdowney, Laois ",170000,175000,-5000,-2.86,7
+105,2022-12-02," The Square, Rathdowney, Laois ",70000,90000,-20000,-22.22,7
+106,2022-12-02," Riverside Poormansbridge Abbeyleix Co Laois, Abbeyleix, Laois ",245000,268000,-23000,-8.58,7
+107,2022-12-02," Mount Howard, Monamolin, Gorey, Wexford ",335000,328000,7000,2.13,7
+108,2022-12-02," 8 The Stableyard, Oldtown Demesne, Naas, Kildare ",349950,345000,4950,1.43,7
+109,2022-12-02," 44 Reuben Avenue, Rialto, Dublin 8 ",420000,450000,-30000,-6.67,7
+110,2022-12-02," Carrowntemple, Gurteen, Co. Sligo, Gurteen, Sligo ",55000,38500,16500,42.86,8
+111,2022-12-01," 4 Drumsawry View, Cloughan St., Oldcastle, Co Meath A82ET73 ",105000,110000,-5000,-4.55,8
+112,2022-12-01," 20 Millbrook Drive, Old Tuam Road, Athlone, Co. Roscommon ",209000,205000,4000,1.95,8
+113,2022-12-01," 235 Kilmainham Square, Kilmainham, Dublin 8 ",495000,425000,70000,16.47,8
+114,2022-12-01," 40 Sraid Na Mara, Sligo City, Sligo ",325000,300000,25000,8.33,8
+115,2022-12-01," Apartment 5, 13a Grattan Crescent, Inchicore, Dublin 8 ",240000,265000,-25000,-9.43,8
+116,2022-12-01," 7 Cluain Aoibhinn, Naas, Kildare ",360000,375000,-15000,-4.0,8
+117,2022-12-01," 9 Turvey Villas, Donabate, County Dublin ",250000,270000,-20000,-7.41,8
+118,2022-12-01," 8 Neptune House, Canada Square, Waterford City, Waterford ",135000,145000,-10000,-6.9,8
+119,2022-12-01," Nancy Whiskeys, Haymarket, Carlow Town, Carlow ",450000,400000,50000,12.5,8
+120,2022-12-01," St Nicholas, St Patricks Road, Wicklow Town, Co. Wicklow ",575000,650000,-75000,-11.54,8
+121,2022-12-01," 7 Abbeyvale Way, Swords, Dublin ",360000,375000,-15000,-4.0,8
+122,2022-12-01," 6 Innisfallen Parade, Dublin 7, Dublin ",240000,260000,-20000,-7.69,8
+123,2022-12-01," 15 Springfield Crescent, Rossmore Village, Tipperary Town, Tipperary ",221451,220000,1451,0.66,8
+124,2022-12-01, 13 Mount Prospect ,260000,254950,5050,1.98,8
+125,2022-12-01," Ballinruan, Crusheen, Caher, Clare ",530000,550000,-20000,-3.64,8
+126,2022-12-01," 7 Cluain Aodha, Gort, Galway ",195000,220000,-25000,-11.36,9
+127,2022-11-30," Callanacor, Drumkeen, Co. Donegal ",100000,125000,-25000,-20.0,9
+128,2022-11-30," 5 Woodbrook Hall, Carpenterstown, Dublin 15 ",275000,295000,-20000,-6.78,9
+129,2022-11-30," Janeville Offaly Street , Athy, Kildare ",140000,180000,-40000,-22.22,9
+130,2022-11-30," 24 Deelish Park, Beaufort, Kerry ",379500,395000,-15500,-3.92,9
+131,2022-11-30," 10 The Oak Courtyard, Bellview Woods, Killarney, Co. Kerry, Killarney, Kerry ",285000,290000,-5000,-1.72,9
+132,2022-11-30," 19 Priory Avenue, Eden Gate, Delgany, Wicklow ",960000,975000,-15000,-1.54,9
+133,2022-11-30," 11 Faulkners Terrace, Mount Brown, Kilmainham, Dublin ",450000,495000,-45000,-9.09,9
+134,2022-11-30," 5 Ballalease West, Donabate, Dublin ",410000,425000,-15000,-3.53,9
+135,2022-11-30," 2 Carrigaline Road, Crosshaven, Cork ",425000,460000,-35000,-7.61,9
+136,2022-11-30," 43 Rossmore Road, Ballyfermot,   Dublin 10 ",275000,250000,25000,10.0,9
+137,2022-11-30," 43 Rossmore Road, Ballyfermot,   Dublin 10 ",250000,275000,-25000,-9.09,9
+138,2022-11-30," 13 Arran Quay Terrace, Smithfield, Dublin ",520000,550000,-30000,-5.45,9
